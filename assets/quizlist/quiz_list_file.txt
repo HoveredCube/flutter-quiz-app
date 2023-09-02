@@ -1,0 +1,41 @@
+What is bound to happen in places where gravity is heavy?
+--=-->
+-o:Heavy fall
+-o:Future travel
+-o:Space escape
+-o:Neutralisation
+--=-->
+2
+--=-->
+-Hint: The heavier the gravity, the more it warps space-time, time dilation!
+--=-->
+-LM:If you want to jump into the future of Earth, simply fly near a black hole and then return to Earth. If you get close enough to the center of the black hole, your clock will tick slower, but you should still be able to escape so long as you don’t cross the event horizon.
+##------------------------------------------------------------##
+What game studio makes the Red Dead Redemption series?
+--=-->
+-o:Activision
+-o:Mojang
+-o:Rockstar Games
+-o:ubisoft
+--=-->
+3
+--=-->
+-Hint: they also made the GTA series
+--=-->
+-LM: The Red Dead Redemption series is a Western-themed action-adventure game series developed by Rockstar San Diego and published by Rockstar Games. The first game in the series, Red Dead Revolver, was released in 2004, while the second game, Red Dead Redemption, was released in 2010. The third game in the series, Red Dead Redemption 2, was released in 2018.
+##------------------------------------------------------------##
+What is the largest planet in our solar system?
+--=-->
+-o:Earth
+-o:Sun
+-o:Venus
+-o:Jupiter
+--=-->
+4
+--=-->
+-Hint: Full of Gas!
+--=-->
+-LM: Jupiter is the largest planet in our solar system and is more than twice as massive as all the other planets combined. It is a gas giant with an atmosphere of hydrogen and helium.
+
+
+
