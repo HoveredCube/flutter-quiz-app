@@ -223,12 +223,11 @@ class _WelcomePageState extends State<WelcomePage> {
     );
   }
 }
-
+//
 class PageIndexCircle extends StatelessWidget {
   const PageIndexCircle({
     super.key, required this.isInPage,
   });
-  
   final bool isInPage;
   double _getWidth(){
     if (isInPage){
