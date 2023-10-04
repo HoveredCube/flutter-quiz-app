@@ -35,4 +35,4 @@ The Code is public and under the Apache License, so You can review, modify and c
 as I've mentioned earlier, this is a learning Project and I can tell that it's full of mistakes! so you can help me make it better and learn something new!
 
 ## Download The Released APK
-https://github.com/HoveredCube/flutter-quiz-app/releases/download/1.0.0/90Quiz.Challenge.apk
+[download apk](https://github.com/HoveredCube/flutter-quiz-app/releases/download/1.0.0/90Quiz.Challenge.apk)
