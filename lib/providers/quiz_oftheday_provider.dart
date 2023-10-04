@@ -13,12 +13,11 @@ class QuizOfTheDayProvider extends ChangeNotifier{
   var _learnMore = 'loading learn more...';
 
   splitQuizData(QuizClass quizObject)  {
-    print(quizObject.quizQuestion);
     _quizQuestion = quizObject.quizQuestion.trim();
-    _option1 = quizObject.options[1].trim();
-    _option2 = quizObject.options[2].trim();
-    _option3 = quizObject.options[3].trim();
-    _option4 = quizObject.options[4].trim();
+    _option1 = quizObject.options[0].trim();
+    _option2 = quizObject.options[1].trim();
+    _option3 = quizObject.options[2].trim();
+    _option4 = quizObject.options[3].trim();
     _hint = quizObject.hint;
     _currentAnswer = quizObject.theCorrectOptionNumber;
     _learnMore = quizObject.learnMore;

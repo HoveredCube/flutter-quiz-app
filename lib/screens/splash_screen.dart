@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 import 'package:quizly/classes/status_tracker_class.dart';
+import 'package:flutter/services.dart';
 import 'package:quizly/providers/status_manager_provider.dart';
+import 'package:quizly/screens/done_screen.dart';
 import 'package:quizly/screens/home_page.dart';
 import 'package:quizly/screens/welcome_page1.dart';
-
 import '../constants/constants.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -17,7 +18,6 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen>{
 
-
   @override
   void initState(){
     super.initState();
@@ -25,6 +25,7 @@ class _SplashScreenState extends State<SplashScreen>{
   }
 
   _navigatetohome() async{
+    // loadImage();
     await Future.delayed(const Duration(milliseconds: 2000));
     StatusTrackerClass statusTracker = StatusTrackerClass();
     List recievedValues = await statusTracker.getAllData();
@@ -33,18 +34,32 @@ class _SplashScreenState extends State<SplashScreen>{
         context, MaterialPageRoute(builder: (context)=> WelcomePage()),
       );
     } else {
-      Provider.of<StatusManagerProvider>(context, listen: false)
-          .updateData(recievedValues);
-      await Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context)=> HomePage()),
-      );
+      statusTracker.getDaysCount(true);
+      recievedValues = await statusTracker.getAllData();
+      if (recievedValues[3] >=91 ){
+        await Navigator.pushReplacement(
+          context, MaterialPageRoute(builder: (context)=> DonePage()),
+        );
+      } else {
+        statusTracker.getDaysCount(true);
+        recievedValues = await statusTracker.getAllData();
+        Provider.of<StatusManagerProvider>(context, listen: false)
+            .updateData(recievedValues);
+        await Navigator.pushReplacement(
+          context, MaterialPageRoute(builder: (context)=> HomePage()),
+        );
+      }
     }
   }
 
   @override
   Widget build(BuildContext context) {
+     precacheImage(const AssetImage('assets/images/questionMark.png'), context);
+     precacheImage(const AssetImage('assets/images/welldone design.png'), context);
+     precacheImage(const AssetImage('assets/images/wrong design.png'), context);
+     precacheImage(const AssetImage('assets/images/final done image.png'), context);
     return Scaffold(
-      backgroundColor: Color(0xFF0C0C0C),
+      backgroundColor: const Color(0xFF0C0C0C),
       body:
       Center(
         child: Column(

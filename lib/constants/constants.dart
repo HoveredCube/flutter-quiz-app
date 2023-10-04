@@ -45,6 +45,10 @@ const Color kAtResultsPageCoolButtonBackgroundColor = Color(0xFFEFF2FF);
 const Color kAtResultsPageCoolButtonTextColor = Color(0xFF030303);
 const Color kAtResultsPageAnswerWasWrongPrimaryColor = Color(0xFFFA577E);
 const Color kAtResultsPageAnswerWasCorrectPrimaryColor = Color(0xFF00E990);
+//DonePage constants
+const Color kAtDonePageMainBackGroundColor = Color(0xFF0C0C0C);
+const Color kAtDonePageChallengeDoneTitleTextColor = Colors.white;
+const Color kAtDonePageThankYouTextColor = Color(0xFFB1B1B1);
 //////////////////////
 
 
@@ -66,6 +70,10 @@ const String kAtResultsPageLearnMoreTextString = 'Learn Some More: ';
 const String kAtResultsPageCoolButtonTextString = 'COOL!';
 const String kAtResultsPageStatusMessageCorrectAnswerTextString = 'Your answer was right!';
 const String kAtResultsPageStatusMessageWrongAnswerTextString = 'Your answer was False!';
+//DonePage constants
+const String kAtDonePageChallengeDoneTitleString = 'CHALLENGE DONE!';
+const String kAtDonePageThankYouMessageString = """A HUGE thank you for being a part of our quiz challenge! You totally nailed it with your energy and smarts, and we're so grateful for the time and effort you put in.
+We hope you had an absolute blast and picked up some cool new facts along the way. """;
 //////////////////////
 
 
@@ -78,6 +86,8 @@ const String kAtResultsPageWelldoneImageAssetPath = 'assets/images/welldone desi
 const String kAtResultsPageWrongImageAssetPath = 'assets/images/wrong design.png';
 const String kAtResultsPageStarIconPath = 'assets/icons/star icon.svg';
 const String kAtResultsPageWrongIconPath = 'assets/icons/wrong icon.svg';
-//SplashScreen constatns
+//SplashScreen constants
 const String kAtSplashScreenLogoPath = 'assets/images/logo.png';
+//DonePage constants
+const String kAtDonePageDoneImagePngPath = 'assets/images/final done image.png';
 //////////////////////

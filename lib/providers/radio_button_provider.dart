@@ -8,20 +8,17 @@ class RadioButtonProvider extends ChangeNotifier{
   int _selectedOption = 4;
   // List<String> _optionsList= ['the','what?', 'sheesh', 'mamad'];
 
-  selectFromOptions(){
-    print('selected option is ${_selectedOption}');
-  }
 
   List<Color> containerNotSelectedStyle = [
-    Color(0xFF171717), // this is the Container color
-    Color(0xFF171717), // this is the border color
-    Color(0xFFD1D1D1), // this is the option title color
+    const Color(0xFF171717), // this is the Container color
+    const Color(0xFF171717), // this is the border color
+    const Color(0xFFD1D1D1), // this is the option title color
   ];
 
   List<Color> containerSelectedStyle = [
-    Color(0xFF222222), // this is the Container color
-    Color(0xFF4B4B4B), // this is the border color
-    Color(0xFFFFFFFF), // this is the option title color
+    const Color(0xFF222222), // this is the Container color
+    const Color(0xFF4B4B4B), // this is the border color
+    const Color(0xFFFFFFFF), // this is the option title color
   ];
 
   late List<Color> _containerStyle0 = containerNotSelectedStyle;
@@ -71,8 +68,6 @@ class RadioButtonProvider extends ChangeNotifier{
   changeSelectedValueTo(theValue){
     if(theValue !=_selectedOption){
       _selectedOption = theValue;
-      print("_seletedOption has been changed to $_selectedOption");
-      selectFromOptions();
       notifyListeners();
     }
   }

@@ -1,21 +1,17 @@
+import 'dart:math';
+
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:quizly/classes/quiz_class.dart';
+import 'dart:convert';
 
 class QuizGenerator {
-  List _listOfQuizObjects = [];
-  readTextFile() async {
-    final myFile = rootBundle.loadString('assets/quizlist/quiz_list_file.txt');
-    final contents = await myFile;
-    List<String> everyQuizQuestionData = contents.split('##------------------------------------------------------------##');
-    for (String questionData in everyQuizQuestionData) {
-      final List<String> splitedQuestionData = questionData.split('--=-->');
-      splitedQuestionData[1].split('-');
-      QuizClass quizObject = QuizClass(
-          splitedQuestionData[0],
-          splitedQuestionData[1].split('-o:'),
-          int.parse(splitedQuestionData[2]),
-          splitedQuestionData[3].replaceAll('-Hint:', ''),
-          splitedQuestionData[4].replaceAll('-LM:', ''));
+  final List _listOfQuizObjects = [];
+  readJsonsFile() async{
+    final String jsonString = await rootBundle.loadString('assets/quizlist/quizlist.json');
+    final data = await json.decode(jsonString);
+    for (int i = 1; i < 91; i++){
+      var singleQuiz = data[i.toString()];
+      QuizClass quizObject = QuizClass(singleQuiz["quiz"], [singleQuiz["option1"],singleQuiz["option2"],singleQuiz["option3"],singleQuiz["option4"]],int.parse(singleQuiz["correctAnswer"]), singleQuiz["hint"], singleQuiz["learnMore"]);
       _listOfQuizObjects.add(quizObject);
     }
     return _listOfQuizObjects;

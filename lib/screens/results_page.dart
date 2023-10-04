@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
+import 'package:quizly/classes/status_tracker_class.dart';
 import 'package:quizly/providers/results_page_provider.dart';
 import '../constants/constants.dart';
+import 'done_screen.dart';
 import 'home_page.dart';
 
 class ResultsPage extends StatelessWidget {
@@ -146,10 +148,18 @@ class ResultsPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                   ),
                 ),
-                onPressed: () {
-                  Navigator.pushReplacement(
-                    context, MaterialPageRoute(builder: (context)=> HomePage()),
-                  );
+                onPressed: () async {
+                  StatusTrackerClass statusTrackerObject = await StatusTrackerClass();
+                  List allData = await statusTrackerObject.getAllData();
+                  if (allData[3] >=91 ){
+                    await Navigator.pushReplacement(
+                      context, MaterialPageRoute(builder: (context)=> const DonePage()),
+                    );
+                  } else {
+                    Navigator.pushReplacement(
+                      context, MaterialPageRoute(builder: (context)=> HomePage()),
+                    );
+                  }
                 },
                 child: const Text(kAtResultsPageCoolButtonTextString,
                   style: TextStyle(

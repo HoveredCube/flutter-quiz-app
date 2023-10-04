@@ -36,4 +36,40 @@ class StatusTrackerClass{
     return [_isFirstTime, _currentStreak, _bestStreak, _daysPassed, _totalDays, _totalCurrectAnswers];
   }
 
+  setFirstDate()async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString("installDate",DateTime.now().toString());
+  }
+  getDaysCount(bool SaveValue)async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    DateTime installDate = DateTime.parse(prefs.getString("installDate").toString());
+    int daysInBetween = daysBetween(installDate, DateTime.now());
+    if(SaveValue){
+      saveValue('daysPassed', daysInBetween);
+    }
+    return daysInBetween;
+  }
+  int daysBetween(DateTime from, DateTime to) {
+    from = DateTime(from.year, from.month, from.day);
+    to = DateTime(to.year, to.month, to.day);
+    return (to.difference(from).inHours / 24).round();
+  }
+  setLatestQuizTookLogin()async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString( 'latestQuizTookDate', DateTime.now().toString() );
+  }
+  Future<bool> getIfOneDayPassed()async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    var latestQuizTook = prefs.getString('latestQuizTookDate');
+    if (latestQuizTook == null){
+      return true;
+    } else {
+      var timePassed = await daysBetween( DateTime.parse(prefs.getString('latestQuizTookDate') ?? DateTime.now().toString() .toString()), DateTime.now());
+      if (timePassed >= 1){
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
 }

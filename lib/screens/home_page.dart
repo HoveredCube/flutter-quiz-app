@@ -6,7 +6,8 @@ import 'package:quizly/classes/status_tracker_class.dart';
 import 'package:quizly/constants/constants.dart';
 import 'package:quizly/providers/quiz_oftheday_provider.dart';
 import 'package:quizly/providers/status_manager_provider.dart';
-import 'quiz_page.dart';
+import 'done_screen.dart';
+
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
@@ -20,8 +21,6 @@ class HomePage extends StatelessWidget {
       return 'assets/images/10streak.png';
     }
   }
-
-
   Color getStreakColor(currentStreak){
     if (currentStreak < 6){
       return kAtHomePageStreakStringColor;
@@ -29,6 +28,8 @@ class HomePage extends StatelessWidget {
       return kAtHomePageHotStreakStringColor;
     }
   }
+
+  int tapEasterEggCount = 0;
 
   Widget isQuizAvailable(isOneDayPassed){
     if (isOneDayPassed){
@@ -55,56 +56,71 @@ class HomePage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          Stack(
-            alignment: Alignment.center,
-            children: [
-              Consumer<StatusManagerProvider>(
-                builder: (context, statusProviderModel, child){
-                  return Image.asset(
-                    assets(statusProviderModel.getStoredData('currentStreak')),
-                    scale: 1.30,
-                  );
-                },
-               ),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 45.0),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Consumer<StatusManagerProvider>(
-                      builder: (context, statusProviderModel, child){
-                        return Text(
-                          //current streak
-                          statusProviderModel.getStoredData('currentStreak').toString(),
-                          style: const TextStyle(
-                            fontFamily: 'Bungee',
-                            color: kAtHomePageCurrentStreakNumberColor,
-                            fontSize: 120.0,
-                          ),
-                        );
-                      },
-                    ),
-                    Consumer<StatusManagerProvider>(
-                      builder: (context, statusProviderModel, child) => Text.rich(
-                          TextSpan(
-                              children: [
-                                const TextSpan(
-                                  text: kAtHomePageDaysString,
-                                  style: TextStyle(color: kAtHomePageDaysStringColor, fontSize: 30.0, fontFamily: 'Bungee'),
-                                ),
-                                TextSpan(
-                                  text: kAtHomePageStreakString,
-                                  style: TextStyle(color: getStreakColor(statusProviderModel.getStoredData('currentStreak')), fontSize: 30.0, fontFamily: 'Bungee'),
-                                ),
-                              ]
-                          )
+          GestureDetector(
+            onTap: (){
+              tapEasterEggCount += 1;
+              if (tapEasterEggCount > 10){
+                OverlayToastMessage.show(
+                  context,
+                  textMessage: 'Developed By HoveredCube',
+                  backgroundColor: Colors.greenAccent,
+                  duration: const Duration(seconds: 3),
+                  borderRadius: BorderRadius.circular(30),
+                );
+                tapEasterEggCount = 0;
+              }
+            },
+            child: Stack(
+              alignment: Alignment.center,
+              children: [
+                Consumer<StatusManagerProvider>(
+                  builder: (context, statusProviderModel, child){
+                    return Image.asset(
+                      assets(statusProviderModel.getStoredData('currentStreak')),
+                      scale: 1.30,
+                    );
+                  },
+                 ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 45.0),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Consumer<StatusManagerProvider>(
+                        builder: (context, statusProviderModel, child){
+                          return Text(
+                            //current streak
+                            statusProviderModel.getStoredData('currentStreak').toString(),
+                            style: const TextStyle(
+                              fontFamily: 'Bungee',
+                              color: kAtHomePageCurrentStreakNumberColor,
+                              fontSize: 120.0,
+                            ),
+                          );
+                        },
                       ),
-                    ),
-                  ],
+                      Consumer<StatusManagerProvider>(
+                        builder: (context, statusProviderModel, child) => Text.rich(
+                            TextSpan(
+                                children: [
+                                  const TextSpan(
+                                    text: kAtHomePageDaysString,
+                                    style: TextStyle(color: kAtHomePageDaysStringColor, fontSize: 30.0, fontFamily: 'Bungee'),
+                                  ),
+                                  TextSpan(
+                                    text: kAtHomePageStreakString,
+                                    style: TextStyle(color: getStreakColor(statusProviderModel.getStoredData('currentStreak')), fontSize: 30.0, fontFamily: 'Bungee'),
+                                  ),
+                                ]
+                            )
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
           Column(
             children: [
@@ -120,9 +136,9 @@ class HomePage extends StatelessWidget {
                 },
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 10.0, left: 33.0, right:33.0,),
+                padding: const EdgeInsets.only(top: 10.0, left: 5.0, right:5.0,),
                 child: Container(
-                  width: double.infinity,
+                  width: 330.0,
                   height: 45.0,
                   decoration: BoxDecoration(
                     color: kAtHomePageCardOnBackgroundColor,
@@ -174,25 +190,23 @@ class HomePage extends StatelessWidget {
                         ),
                         onPressed: () async{
                           QuizGenerator quizGeneratorObject = await QuizGenerator();
-                          var quizObjectList = await quizGeneratorObject.readTextFile();
-                          // var daysCount = await statusObject.getDaysCount(false);
-                            await Provider.of<QuizOfTheDayProvider>(context, listen: false).splitQuizData(quizObjectList[statusProviderModel.getStoredData('daysPassed')]);
-                            Navigator.pushNamed(context, '/QuizPage');
-                          // if (daysCount >= 1){
-                          //   await Provider.of<QuizOfTheDayProvider>(context, listen: false).splitQuizData(quizObjectList[statusProviderModel.getStoredData('daysPassed')]);
-                          //   Navigator.pushNamed(context, '/QuizPage');
-                          // } else {
-                          //   OverlayToastMessage.show(
-                          //     context,
-                          //     textMessage: "come back tomorrow!",
-                          //     backgroundColor: Colors.indigoAccent,
-                          //     duration: const Duration(seconds: 3),
-                          //     borderRadius: BorderRadius.circular(30),
-                          //   );
-                          // }
-                          //
-
-
+                          var quizObjectList = await quizGeneratorObject.readJsonsFile();
+                          if (await statusObject.getIfOneDayPassed()){
+                            if (statusProviderModel.getStoredData('daysPassed') <= 90){
+                              await Provider.of<QuizOfTheDayProvider>(context, listen: false).splitQuizData(quizObjectList[statusProviderModel.getStoredData('daysPassed')]);
+                              Navigator.pushNamed(context, '/QuizPage');
+                            } else {
+                              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> DonePage()));
+                            }
+                          } else {
+                            OverlayToastMessage.show(
+                              context,
+                              textMessage: 'Not yet, try tomorrow!',
+                              backgroundColor: kAtQuizPageErrorMessageBackGroundColor,
+                              duration: const Duration(seconds: 3),
+                              borderRadius: BorderRadius.circular(30),
+                            );
+                          }
                         },
                         child: const Text(kAtHomePageStartButtonText,
                           style: TextStyle(
@@ -207,7 +221,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: 10.0,),
+              const SizedBox(height: 10.0,),
             ],
           ),
         ],

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 import 'package:quizly/classes/status_tracker_class.dart';
-
+import 'package:quizly/main.dart';
 import '../providers/status_manager_provider.dart';
 import 'home_page.dart';
 
@@ -68,12 +67,23 @@ class _WelcomePageState extends State<WelcomePage> {
 
   double opacityLevel = 1.0;
 
+
   void _changeOpacity() {
     setState(() => opacityLevel = opacityLevel == 0 ? 1.0 : 0.0);
   }
 
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    precacheImage(const AssetImage('assets/images/welcomepage1.png'), context);
+    precacheImage(const AssetImage('assets/images/welcomepage2.png'), context);
+    precacheImage(const AssetImage('assets/images/welcomepage3.png'), context);
+    precacheImage(const AssetImage('assets/images/welcomepage4.png'), context);
+    precacheImage(const AssetImage('assets/images/welcomepage5.png'), context);
     return GestureDetector(
       onHorizontalDragEnd: (DragEndDetails edetails) async {
         if (edetails.primaryVelocity! < 0) {
@@ -175,20 +185,21 @@ class _WelcomePageState extends State<WelcomePage> {
                               context, MaterialPageRoute(builder: (context)=> HomePage()));
                         } else if (currentPageIndex < 5){
                           _changeOpacity();
-                          await Future.delayed(Duration(milliseconds: 170));
+                          await Future.delayed(const Duration(milliseconds: 170));
                           setState(() {
                             currentPageIndex += 1;
                           });
                           if(currentPageIndex == 5){
                             setState(() {
                               buttonText = letsGoButtonText;
+                              statusObject.setFirstDate();
                             });
                           }
                           _changeOpacity();
                         }
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xFFEFF2FF),
+                        backgroundColor: const Color(0xFFEFF2FF),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20),
                         ),
@@ -228,9 +239,9 @@ class PageIndexCircle extends StatelessWidget {
   }
   Color _getColor(){
     if (isInPage){
-      return Color(0xFFFFFFFF);
+      return const Color(0xFFFFFFFF);
     } else {
-      return Color(0xFF404040);
+      return const Color(0xFF404040);
     }
   }
 

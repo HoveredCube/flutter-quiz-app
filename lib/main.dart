@@ -5,6 +5,7 @@ import 'package:quizly/providers/quiz_oftheday_provider.dart';
 import 'package:quizly/providers/radio_button_provider.dart';
 import 'package:quizly/providers/results_page_provider.dart';
 import 'package:quizly/providers/status_manager_provider.dart';
+import 'package:quizly/screens/done_screen.dart';
 import 'package:quizly/screens/home_page.dart';
 import 'package:quizly/screens/quiz_page.dart';
 import 'package:quizly/screens/results_page.dart';
@@ -37,11 +38,12 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           initialRoute: '/',
           routes: {
-            '/': (context) => SplashScreen(),
+            '/': (context) => const SplashScreen(),
             '/homepage': (context) => HomePage(),
             '/QuizPage': (context) => const QuizPage(),
             '/ResultsPage': (context) => const ResultsPage(),
-            '/Welcome': (context) => WelcomePage(),
+            '/Welcome': (context) => const WelcomePage(),
+            '/DonePage': (context) => const DonePage(),
           },
         ));
   }

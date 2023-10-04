@@ -290,11 +290,13 @@ class QuizPage extends StatelessWidget {
                                       Provider.of<ResultsPageProvider>(context, listen: false)
                                           .setNeededData(true, quizOfTheDayProvider.getQuizData()[7], statusManagerProvider.getStoredData('daysPassed'), statusManagerProvider.getStoredData('currentStreak'));
                                       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){ return ResultsPage();}));
+                                      statusObject.setLatestQuizTookLogin();
                                     } else {
                                       statusObject.saveValue('currentStreak', 0);
                                       Provider.of<ResultsPageProvider>(context, listen: false)
                                           .setNeededData(false, quizOfTheDayProvider.getQuizData()[7], statusManagerProvider.getStoredData('daysPassed'), statusManagerProvider.getStoredData('currentStreak'));
                                       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){ return ResultsPage();}));
+                                      statusObject.setLatestQuizTookLogin();
                                     }
                                     // updating the state of the app after all that calculations and stuff
                                     statusManagerProvider.updateData(await statusObject.getAllData());

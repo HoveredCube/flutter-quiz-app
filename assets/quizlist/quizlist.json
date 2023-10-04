@@ -1,0 +1,912 @@
+{
+  "1": {
+    "quiz": "What is bound to happen in places where gravity is heavy?",
+    "option1": "Heavy fall",
+    "option2": "Future travel",
+    "option3": "Space escape",
+    "option4": "Neutralisation",
+    "correctAnswer" : "2",
+    "hint": "The heavier the gravity, the more it warps space-time, time dilation!",
+    "learnMore": "If you want to jump into the future of Earth, simply fly near a black hole and then return to Earth. If you get close enough to the center of the black hole, your clock will tick slower, but you should still be able to escape so long as you don’t cross the event horizon."
+  },
+  "2": {
+    "quiz": "What game studio makes the Red Dead Redemption series?",
+    "option1": "Activision",
+    "option2": "Mojang",
+    "option3": "Rockstar Games",
+    "option4": "ubisoft",
+    "correctAnswer" : "3",
+    "hint": "they also made the GTA series",
+    "learnMore": "The Red Dead Redemption series is a Western-themed action-adventure game series developed by Rockstar San Diego and published by Rockstar Games. The first game in the series, Red Dead Revolver, was released in 2004, while the second game, Red Dead Redemption, was released in 2010. The third game in the series, Red Dead Redemption 2, was released in 2018."
+  },
+  "3": {
+    "quiz": "What is the largest planet in our solar system?",
+    "option1": "Earth",
+    "option2": "Sun",
+    "option3": "Venus",
+    "option4": "Jupiter",
+    "correctAnswer" : "4",
+    "hint": "It's a gas giant!",
+    "learnMore": "Jupiter is the largest planet in our solar system and is more than twice as massive as all the other planets combined. It is a gas giant with an atmosphere of hydrogen and helium."
+  },
+  "4": {
+    "quiz": "What percentage of the Earth’s surface is covered by water?",
+    "option1": "About 50%",
+    "option2": "About 60%",
+    "option3": "About 70%",
+    "option4": "About 80%",
+    "correctAnswer" : "3",
+    "hint": "It’s more than half of the earth's surface.",
+    "learnMore": "About 71% of Earth's surface is covered with water, and a colossal 96.5% of the planet's water supply is found in the oceans, according to the U.S. Geological Survey (USGS)."
+  },
+  "5": {
+    "quiz": "Which currency is used in Spain?",
+    "option1": "Peso",
+    "option2": "Krona",
+    "option3": "Dollar",
+    "option4": "Euro",
+    "correctAnswer" : "4",
+    "hint": "The currency used in Spain is the same as the currency used in many other European countries.",
+    "learnMore": "Since 2002, Spain has embraced the monetary unit of the European Union: the euro. The euro, which uses the symbol € and the currency code EUR, is the second most traded currency in the world's foreign exchange markets. The currency is issued by the European Central Bank."
+  },
+  "6": {
+    "quiz": "Which gas makes up most of the Earth’s atmosphere?",
+    "option1": "Oxygen",
+    "option2": "Carbon dioxide",
+    "option3": "Nitrogen",
+    "option4": "Hydrogen",
+    "correctAnswer" : "3",
+    "hint": "It’s a gas that humans don’t breathe.",
+    "learnMore": "The most abundant gas in the atmosphere is nitrogen. The Earth’s atmosphere is composed of approximately 78 percent nitrogen, 21 percent oxygen, 1 percent argon and trace amounts of other gases that include carbon dioxide and neon."
+  },
+  "7": {
+    "quiz": "Who invented the Telephone?",
+    "option1": "Alexander Graham Bell",
+    "option2": "Charles Babbage",
+    "option3": "Orville Wright",
+    "option4": "Angelo Moriondo",
+    "correctAnswer" : "1",
+    "hint": "The person who is credited with inventing the telephone was a Scottish-born inventor.",
+    "learnMore": "The person who is credited with inventing the telephone is Alexander Graham Bell1. He was a Scottish-born inventor, scientist, and engineer who is best known for his invention of the telephone, which revolutionized communication as we know it. Bell’s interest in sound technology was deep-rooted and personal, as both his wife and mother were deaf2. Bell was awarded the first U.S. patent for the telephone on March 7, 1876"
+  },
+  "8": {
+    "quiz": "In which country was Pablo Picasso born?",
+    "option1": "Spain",
+    "option2": "South Africa",
+    "option3": "Italy",
+    "option4": "Germany",
+    "correctAnswer" : "1",
+    "hint": ": Pablo Picasso was born in a country that is known for its art, architecture, and rich cultural heritage. It is also famous for its cuisine, which includes dishes such as paella and tapas.",
+    "learnMore": "Pablo Picasso was born in the city of Málaga, Andalusia, in southern Spain1. He was the first child of Don José Ruiz y Blasco and María Picasso y López."
+  },
+  "9": {
+    "quiz": "Who invented Internet?",
+    "option1": "Bob Kahn",
+    "option2": "James Gosling",
+    "option3": "Vint cerf",
+    "option4": "option 1 & 3",
+    "correctAnswer" : "4",
+    "hint": "Jame Gosling was the inventor of Java Programming language not the internet!",
+    "learnMore": "BOB KAHN (1938–) AND VINT CERF (1943–) American computer scientists who developed TCP/IP, the set of protocols that governs how data moves through a network. This helped the ARPANET evolve into the internet we use today. Vint Cerf is credited with the first written use of the word "
+  },
+  "10": {
+    "quiz": "In which country can you find the leaning tower of Pisa?",
+    "option1": "Spain",
+    "option2": "France",
+    "option3": "Italy",
+    "option4": "Austria",
+    "correctAnswer" : "3",
+    "hint": "The tower is on the grounds of the city’s cathedral complex, which is known as the Campo dei Miracoli or Piazza dei Miracoli, the “Square of Miracles”",
+    "learnMore": "The Leaning Tower of Pisa is a medieval structure in Pisa, Italy, that is famous for the settling of its foundations, which by the late 20th century had caused it to lean about 15 feet (4.5 metres) from the perpendicular."
+  },
+  "11": {
+    "quiz": "Which country won the World Cup of Football in 2018?",
+    "option1": "Russia",
+    "option2": "Brazil",
+    "option3": "France",
+    "option4": "Japa",
+    "correctAnswer" : "3",
+    "hint": "Country of northwestern Europe. Historically and culturally among the most important nations in the Western world.",
+    "learnMore": "France won the FIFA World Cup in 2018 by defeating Croatia 4-2 in the final match. This was France's second World Cup title and their first since 1998. The final match was played at the Luzhniki Stadium in Moscow, Russia. Didier Deschamps, who captained France to their first World Cup win in 1998, became just the third man to win the competition as a player and coach."
+  },
+  "12": {
+    "quiz": "Who is hailed as the founding father of algebra?",
+    "option1": "Muhammad ibn Musa al-Khwarazmi",
+    "option2": "Omar Khayyam",
+    "option3": "Al-Farabi",
+    "option4": "Avicenna (Ibn Sina)",
+    "correctAnswer" : "1",
+    "hint": "He was a Persian scholar in Baghdad.",
+    "learnMore": "Muhammad ibn Musa al-Khwarizmi was a Persian mathematician who wrote a book named Kitab Al Muhtasar fi Hisab Al Gabr Wa I Muqabala in the Arabic language, which was later translated into English as 'The Compendious Book on Calculation by Completion and Balancing', from which the word ALGEBRA was derived."
+  },
+  "13": {
+    "quiz": "In computer terminology, what does ROM stands for?",
+    "option1": "Random-Order Memory",
+    "option2": "Read-Optimized Memory",
+    "option3": "Read-Only Memory",
+    "option4": "Random-Output Memory",
+    "correctAnswer" : "3",
+    "hint": "ROM is a type of non-volatile memory used in computers and other electronic devices.",
+    "learnMore": "Short for read-only memory, ROM is a storage medium that is used with computers and other electronic devices. As the name indicates, data stored in ROM may only be read. It is either modified with extreme difficulty or not at all. ROM is mostly used for firmware updates. A simple example of ROM is the cartridge used with video game consoles, which allows one system to run multiple games. Another example of ROM is EEPROM, a programmable ROM used for the computer BIOS."
+  },
+  "14": {
+    "quiz": "What is the name of the largest canyon in the world, located in the United States?",
+    "option1": "Copper Canyon",
+    "option2": "Fish River Canyon",
+    "option3": "Colca Canyon.",
+    "option4": "Grand Canyon",
+    "correctAnswer" : "4",
+    "hint": "It's HUGE.",
+    "learnMore": "Originating due to a mix of geological activity and river erosion, the Grand Canyon is the largest Canyon in the United States. This iconic natural red rock formation stretches 18 miles long and is 277 miles long."
+  },
+  "15": {
+    "quiz": "How many time zones are there in Russia?",
+    "option1": "1",
+    "option2": "6",
+    "option3": "9",
+    "option4": "11",
+    "correctAnswer" : "4",
+    "hint": "Russia is the largest country in the world by land area, and it spans across multiple time zones.",
+    "learnMore": "Russia is a huge country by area expanding from east to west in the northern hemisphere. It was divided into eleven time zones in 1919, after the Bolshevik Revolution."
+  },
+  "16": {
+    "quiz": "What’s the national flower of Japan?",
+    "option1": "Blue Hibiscus",
+    "option2": "Cherry blossom",
+    "option3": "Nymphaeaceae",
+    "option4": "Perennial Geranium",
+    "correctAnswer" : "2",
+    "hint": "It's Pink.",
+    "learnMore": "national Flower of Japan is cherry blossom, also known as a Japanese cherry or sakura, is a flower of trees in the genus Prunus or the Prunus subgenus Cerasus. Wild species of the cherry tree are widely distributed, mainly in the Northern Hemisphere."
+  },
+  "17": {
+    "quiz": "What country has the most islands in the world?",
+    "option1": "Philippines",
+    "option2": "Norway",
+    "option3": "Finland",
+    "option4": "Sweden",
+    "correctAnswer" : "4",
+    "hint": "It's in Europe.",
+    "learnMore": " Sweden has 221,831 counted islands, about 24,000 of which are open to the public through the country's Right of Public Access policy, which allows anyone to hike through lush forests and fields, and forage for berries or mushrooms without asking landowner permission, so long as they show respect for the natural environment and private property. Though Sweden is the country with the most islands in the world, less than 1,000 of them are inhabited."
+  },
+  "18": {
+    "quiz": "Name the largest mountain range in the world?",
+    "option1": "The Andes",
+    "option2": "Everest",
+    "option3": "The Manaslu",
+    "option4": "Nanda Devi",
+    "correctAnswer" : "1",
+    "hint": "the largest, not highest!",
+    "learnMore": "The Andes, running along South America's western side, is among the world's longest mountain ranges. Its varied terrain encompasses glaciers, volcanoes, grassland, desert, lakes and forest. The mountains shelter pre-Columbian archaeological sites and wildlife including chinchillas and condors. From Venezuela in the north, the range passes through Colombia, Ecuador, Peru, Bolivia, Argentina and Chile."
+  },
+  "19": {
+    "quiz": "What is the capital of Australia?",
+    "option1": "Sydney",
+    "option2": "Melbourne",
+    "option3": "Canberra",
+    "option4": "Adelaide",
+    "correctAnswer" : "3",
+    "hint": "It’s not the most populous city in Australia.",
+    "learnMore": "Canberra is the capital city of Australia. Founded following the federation of the colonies of Australia as the seat of government for the new nation, it is Australia's largest inland city and the eighth-largest Australian city overall."
+  },
+  "20": {
+    "quiz": "Who wrote the novel ‘Pride and Prejudice’?",
+    "option1": "Emily Bronte",
+    "option2": "Jane Austen",
+    "option3": "Charles Dickens",
+    "option4": "Mark Twain",
+    "correctAnswer" : "2",
+    "hint": "The author is a woman.",
+    "learnMore": "Jane Austen (1775–1817) was an English novelist and writer, best known for novels such as Pride and Prejudice and Sense and Sensibility. Rich in comedy, romance, wit and satire, Austen's six novels are also pin-sharp reflections of her social and geographical milieu in and around Hampshire, Bath and Dorset."
+  },
+  "21": {
+    "quiz": "What is the chemical symbol for Gold?",
+    "option1": "Gd",
+    "option2": "Au",
+    "option3": "Ag",
+    "option4": "Og",
+    "correctAnswer" : "2",
+    "hint": "It’s a two-letter symbol.",
+    "learnMore": "Gold is a chemical element with the symbol Au and atomic number 79. It is a bright, slightly orange-yellow, dense, soft, malleable, and ductile metal in pure form. Chemically, gold is a transition metal and a group 11 element. It is one of the least reactive chemical elements and is solid under standard conditions."
+  },
+  "22": {
+    "quiz": "Which planet is known as the ‘Red Planet’?",
+    "option1": "Mars",
+    "option2": "Venus",
+    "option3": "Jupiter",
+    "option4": "Saturn",
+    "correctAnswer" : "1",
+    "hint": "It’s named after the Roman god of war.",
+    "learnMore": "Mars is known as the Red Planet because iron minerals in the Martian soil oxidize, or rust, causing the soil and atmosphere to look red."
+  },
+  "23": {
+    "quiz": "Who painted the Mona Lisa?",
+    "option1": "Vincent Van Gogh",
+    "option2": "Pablo Picasso",
+    "option3": "Leonardo da Vinci",
+    "option4": "Michelangelo",
+    "correctAnswer" : "3",
+    "hint": "The artist is Italian.",
+    "learnMore": "The Mona Lisa painting is one of the most emblematic portraits in the history of art, where is located at the Louvre. Painted by Leonardo da Vinci in the 16th century, it joined the collections of the court of France before being added to the works on display at the Louvre Museum."
+  },
+  "24": {
+    "quiz": "What is the largest ocean on Earth?",
+    "option1": "Atlantic Ocean",
+    "option2": "Indian Ocean",
+    "option3": "Arctic Ocean",
+    "option4": "Pacific Ocean",
+    "correctAnswer" : "4",
+    "hint": "It means Peaceful!",
+    "learnMore": "The Pacific Ocean is the largest and deepest of the world ocean basins. Covering approximately 63 million square miles and containing more than half of the free water on Earth, the Pacific is by far the largest of the world's ocean basins. All of the world's continents could fit into the Pacific basin."
+  },
+  "25": {
+    "quiz": "Who discovered penicillin?",
+    "option1": "Marie Curie",
+    "option2": "Alexander Fleming",
+    "option3": "Isaac Newton",
+    "option4": "Albert Einstein",
+    "correctAnswer" : "2",
+    "hint": "The scientist is Scottish.",
+    "learnMore": "Sir Alexander Fleming, FRS, FRSE, FRCS, was a Scottish physician and microbiologist, best known for discovering the world's first broadly effective antibiotic substance, which he named penicillin."
+  },
+  "26": {
+    "quiz": "Who composed the music for the ‘Fifth Symphony’?",
+    "option1": "Wolfgang Amadeus Mozart",
+    "option2": "Johann Sebastian Bach",
+    "option3": "Ludwig van Beethoven",
+    "option4": "Franz Schubert",
+    "correctAnswer" : "3",
+    "hint": "The composer was deaf!!.",
+    "learnMore": "Ludwig van Beethoven was a German composer and pianist. Beethoven remains one of the most admired composers in the history of Western music; his works rank among the most performed of the classical music repertoire and span the transition from the Classical period to the Romantic era in classical music."
+  },
+  "27": {
+    "quiz": "What is the square root of 144?",
+    "option1": "14",
+    "option2": "12",
+    "option3": "16",
+    "option4": "21",
+    "correctAnswer" : "2",
+    "hint": "It’s an even number.",
+    "learnMore": "A square root of a number is a value that, when multiplied by itself, gives the original number. For example, the square root of 16 is 4 because 4 * 4 equals 16. Note that (-4) * (-4) also equals 16, so -4 is also a square root of 16. However, the square root symbol (√) always means the positive square root."
+  },
+  "28": {
+    "quiz": "Who wrote the novel ‘1984’?",
+    "option1": "Aldous Huxley",
+    "option2": "Ray Bradbury",
+    "option3": "Isaac Asimov",
+    "option4": "George Orwell",
+    "correctAnswer" : "4",
+    "hint": "This author also wrote ‘Animal Farm’.",
+    "learnMore": "Eric Arthur Blair, better known by his pen name George Orwell, was an English novelist, essayist, journalist, and critic. His work is characterised by lucid prose, social criticism, opposition to totalitarianism, and support of democratic socialism."
+  },
+  "29": {
+    "quiz": "Who is known as the father of Computer?",
+    "option1": "Charles Babbage",
+    "option2": "Alan Turing",
+    "option3": "Bill Gates",
+    "option4": "Steve Jobs",
+    "correctAnswer" : "2",
+    "hint": "He was an English mathematician",
+    "learnMore": "Alan Turing OBE FRS was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. "
+  },
+  "30": {
+    "quiz": "What does HTTP stand for in website addresses?",
+    "option1": "Hyper Transfer Text Protocol",
+    "option2": "HyperText Transfer Protocol",
+    "option3": "HyperText Technical Protocol",
+    "option4": "Hyper Transfer Technical Protocol",
+    "correctAnswer" : "2",
+    "hint": "It’s used for transferring hypertext requests and information between servers and browsers.",
+    "learnMore": "HTTP stands for HyperText Transfer Protocol and is the foundation of the World Wide Web. Without it the Web wouldn't be what it is today. An HTTP URL starts with http:// and has a number 80 port by default."
+  },
+  "31": {
+    "quiz": "What does the ‘i’ stand for in Apple products like the iPhone, iMac, iPod?",
+    "option1": "Intelligent",
+    "option2": "Interactive",
+    "option3": "Internet",
+    "option4": "Innovation",
+    "correctAnswer" : "3",
+    "hint": "It’s a term often associated with connectivity.",
+    "learnMore": "The 'i' in many of Apple's products stands for Internet. This prefix has been used by the company for a variety of internet-based products, including the iPod, iPad, iMac, and iPhone."
+  },
+  "32": {
+    "quiz": "What does the ‘i’ stand for in Apple products like the iPhone, iMac, iPod?",
+    "option1": "Intelligent",
+    "option2": "Interactive",
+    "option3": "Internet",
+    "option4": "Innovation",
+    "correctAnswer" : "3",
+    "hint": "It’s a term often associated with connectivity.",
+    "learnMore": "The 'i' in many of Apple's products stands for Internet. This prefix has been used by the company for a variety of internet-based products, including the iPod, iPad, iMac, and iPhone."
+  },
+  "33": {
+    "quiz": "What is the chemical symbol for the element oxygen?",
+    "option1": "O",
+    "option2": "Ox",
+    "option3": "Og",
+    "option4": "Om",
+    "correctAnswer" : "1",
+    "hint": "It’s the first letter of the element’s name.",
+    "learnMore": "Oxygen is a chemical element with atomic number 8 which means there are 8 protons and 8 electrons in the atomic structure. The chemical symbol for Oxygen is O. Oxygen is a colourless, odourless reactive gas, the chemical element of atomic number 8 and the life-supporting component of the air."
+  },
+  "34": {
+    "quiz": "What is the powerhouse of the cell?",
+    "option1": "Nucleus",
+    "option2": "Ribosome",
+    "option3": "Endoplasmic reticulum",
+    "option4": "Mitochondria",
+    "correctAnswer" : "4",
+    "hint": "It’s a term often associated with connectivity.",
+    "learnMore": "Mitochondria play host to one of the most important processes in your body, called cellular respiration. Taking in glucose and oxygen, mitochondria produce energy, which they capture and package as energy-rich molecules of ATP. This video describes the structure and functions that give mitochondria their nickname: the powerhouses of the cell."
+  },
+  "35": {
+    "quiz": "Who developed the theory of relativity?",
+    "option1": "Nikola Tesla",
+    "option2": "Albert Einstein",
+    "option3": "Isaac Newton",
+    "option4": "Galileo Galilei",
+    "correctAnswer" : "2",
+    "hint": "He’s famous for his equation E=mc^2.",
+    "learnMore": "Albert Einstein was a German mathematician and physicist who developed the special and general theories of relativity. In 1921, he won the Nobel Prize in Physics for his explanation of the photoelectric effect."
+  },
+  "36": {
+    "quiz": "What is the human body’s largest organ?",
+    "option1": "Heart",
+    "option2": "Brain",
+    "option3": "Liver",
+    "option4": "Skin",
+    "correctAnswer" : "4",
+    "hint": "It covers the entire body.",
+    "learnMore": "The skin is the largest organ in the human body, covering the entire body and making up about 16% of the body’s weight. It serves several functions, including protecting the body from environmental stressors like germs, pollution, and radiation from the sun, regulating body temperature, receiving sensory information, and storing water, fat, and vitamin D."
+  },
+  "37": {
+    "quiz": "What is the boiling point of water at sea level?",
+    "option1": "100°C",
+    "option2": "120°C",
+    "option3": "200°C",
+    "option4": "98.3°C",
+    "correctAnswer" : "2",
+    "hint": "It's 212°F",
+    "learnMore": "The boiling point of a liquid varies according to the applied pressure; the normal boiling point is the temperature at which the vapour pressure is equal to the standard sea-level atmospheric pressure (760 mm [29.92 inches] of mercury). At sea level, water boils at 100° C (212° F)."
+  },
+  "38": {
+    "quiz": "Who proposed the laws of motion?",
+    "option1": "Isaac Newton",
+    "option2": "Albert Einstein",
+    "option3": "Nikola Tesla",
+    "option4": "Robert Carter",
+    "correctAnswer" : "1",
+    "hint": "He’s also known for his work on gravity.",
+    "learnMore": "The three laws of motion were first stated by Isaac Newton in his Philosophiæ Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), originally published in 1687. Newton used them to investigate and explain the motion of many physical objects and systems, which laid the foundation for classical mechanics."
+  },
+  "39": {
+    "quiz": "Which ancient civilization built the pyramids?",
+    "option1": "Romans",
+    "option2": "Greeks",
+    "option3": "Egyptians",
+    "option4": "Persians",
+    "correctAnswer" : "3",
+    "hint": "This civilization is located in Africa.",
+    "learnMore": "Built during a time when Egypt was one of the richest and most powerful civilizations in the world, the pyramids—especially the Great Pyramids of Giza—are some of the most magnificent man-made structures in history."
+  },
+  "40": {
+    "quiz": "Who was known as the ‘Iron Lady’?",
+    "option1": "Queen Elizabeth II",
+    "option2": "Margaret Thatcher",
+    "option3": "Indira Gandhi",
+    "option4": "Angela Merkel",
+    "correctAnswer" : "2",
+    "hint": "She was the first female Prime Minister of the United Kingdom.",
+    "learnMore": "The ‘Iron Lady’ is a nickname that was used to refer to Margaret Thatcher. She was the first female Prime Minister of the United Kingdom, serving from 1979 to 1990. The nickname ‘Iron Lady’ was given to her due to her uncompromising politics and leadership style."
+  },
+  "41": {
+    "quiz": "Who was the founder of the first Persian Empire, also known as the Achaemenid Empire?",
+    "option1": "Xerxes I",
+    "option2": "Alexander the Great",
+    "option3": "Darius the Great",
+    "option4": "Cyrus the Great",
+    "correctAnswer" : "4",
+    "hint": "He revolted against King Astyages of Media and eventually conquered the Medes to create the First Persian Empire",
+    "learnMore": "He founded the first Persian Empire, also known as the Achaemenid Empire, in 550 B.C. The first Persian Empire under Cyrus the Great soon became the world's first superpower."
+  },
+  "42": {
+    "quiz": "What was the first car to be mass-produced on a moving assembly line?",
+    "option1": "Volkswagen Beetle",
+    "option2": "Ford Model T",
+    "option3": "Chevrolet Suburban",
+    "option4": "Toyota Corolla",
+    "correctAnswer" : "2",
+    "hint": "This car was produced by an American company.",
+    "learnMore": "First sold in 1908, Henry Ford's Model T was sturdy, reliable, and easy to drive. In 1913, it became the first car to be mass-produced in a factory on a moving assembly line. At the peak of production, up to 10,000 cars left the factory each day, bringing the price down to a level that ordinary people could afford."
+  },
+  "43": {
+    "quiz": "The Persian Empire started as a collection of what kind of tribes?",
+    "option1": "Nomadic tribes who raised sheep, goats and cattle",
+    "option2": "Tribes who were skilled in pottery and weaving.",
+    "option3": "Tribes who were known for their warrior skills.",
+    "option4": "Tribes who were expert seafarers and traders",
+    "correctAnswer" : "1",
+    "hint": "a member of a people living usually in portable or temporary dwellings and practicing seasonal migration but having a base camp at which some crops are cultivated.",
+    "learnMore": "The Persian Empire started as a collection of semi-nomadic tribes who raised sheep, goats and cattle on the Iranian plateau. Cyrus the Great—the leader of one such tribe—began to defeat nearby kingdoms, including Media, Lydia and Babylon, joining them under one rule."
+  },
+  "44": {
+    "quiz": "Who is credited with the invention of the first practical, marketable automobile for everyday use?",
+    "option1": "Henry Ford",
+    "option2": "Carl Benz",
+    "option3": "Nikola Tesla",
+    "option4": "Ferdinand Porsche",
+    "correctAnswer" : "2",
+    "hint": "This person’s last name is now a famous German car brand.",
+    "learnMore": "On January 29, 1886, Carl Benz applied for a patent for his “vehicle powered by a gas engine.” The patent – number 37435 – may be regarded as the birth certificate of the automobile. In July 1886 the newspapers reported on the first public outing of the three-wheeled Benz Patent Motor Car, model no. 1."
+  },
+  "45": {
+    "quiz": "What was the name of the first artificial satellite to orbit Earth?",
+    "option1": "Explorer",
+    "option2": "Luna",
+    "option3": "Sputnik",
+    "option4": "Apollo",
+    "correctAnswer" : "3",
+    "hint": "This satellite’s name is Russian for 'traveler' or 'companion'",
+    "learnMore": "On October 4, 1957, the Soviet Union launched the earth's first artificial satellite, Sputnik I."
+  },
+  "46": {
+    "quiz": "Who were the astronauts that made the first lunar landing?",
+    "option1": "Yuri Gagarin and Valentina Tereshkova",
+    "option2": "Neil Armstrong and Buzz Aldrin",
+    "option3": "John Glenn and Alan Shepard",
+    "option4": "Gus Grissom and John Young",
+    "correctAnswer" : "2",
+    "hint": "One of them said, 'That is one small step for man, one giant leap for mankind.'",
+    "learnMore": "Neil Armstrong and Edwin Buzz Aldrin were the first of 12 human beings to walk on the Moon."
+  },
+  "47": {
+    "quiz": "What was the name of the first animal launched into space?",
+    "option1": "Laika",
+    "option2": "Ham",
+    "option3": "Félicette",
+    "option4": "Albert I",
+    "correctAnswer" : "1",
+    "hint": "This animal was a dog from the Soviet Union.",
+    "learnMore": "The first animal to make an orbital spaceflight around the Earth was the dog Laika, aboard the Soviet spacecraft Sputnik 2 on 3 November 1957."
+  },
+  "48": {
+    "quiz": "What is the science of plant life called?",
+    "option1": "Zoology",
+    "option2": "Botany",
+    "option3": "Geology",
+    "option4": "Meteorology",
+    "correctAnswer" : "2",
+    "hint": "This field is also known as plant science.",
+    "learnMore": "Botany, also called plant science (or plant sciences), plant biology or phytology, is the science of plant life and a branch of biology."
+  },
+  "49": {
+    "quiz": "What is the primary function of a plant’s roots?",
+    "option1": "Photosynthesis",
+    "option2": "Absorption of water and nutrients",
+    "option3": "Reproduction",
+    "option4": "Protection against predators",
+    "correctAnswer" : "2",
+    "hint": "These parts of the plant are usually found underground! what hint do you expect me to give you!?",
+    "learnMore": "Its primary functions are anchorage of the plant, absorption of water and dissolved minerals and conduction of these to the stem, and storage of reserve foods"
+  },
+  "50": {
+    "quiz": "What does SQL stand for? (in programming field)",
+    "option1": "Structured Query Language",
+    "option2": "Simple Query Language",
+    "option3": "System Query Language",
+    "option4": "Software Query Language",
+    "correctAnswer" : "1",
+    "hint": " It’s a standard language for managing data held in a relational database management system.",
+    "learnMore": "Structured Query Language is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system."
+  },
+  "51": {
+    "quiz": "What does API stand for in programming?",
+    "option1": "Applicable Programming Interface",
+    "option2": "Applied Programming Interface",
+    "option3": "Advanced Programming Interface",
+    "option4": "Application Programming Interface",
+    "correctAnswer" : "4",
+    "hint": "It’s a set of subroutine definitions, protocols, and tools for building software and applications.",
+    "learnMore": "API stands for Application Programming Interface. In the context of APIs, the word Application refers to any software with a distinct function. Interface can be thought of as a contract of service between two applications."
+  },
+  "52": {
+    "quiz": "What is the Earth’s primary source of energy?",
+    "option1": "The Moon",
+    "option2": "The Sun",
+    "option3": "Geothermal energy",
+    "option4": "Wind energy",
+    "correctAnswer" : "4",
+    "hint": "It rises in the east and sets in the west.",
+    "learnMore": "The primary energy source on the earth's surface is sunlight, which can be harnessed in several ways [54]. Fossil fuels containing coal, oil, and natural gas have been produced through photosynthesis and chemical processes over the years."
+  },
+  "53": {
+    "quiz": "What is the hottest layer of the Earth?",
+    "option1": "Crust",
+    "option2": "Mantle",
+    "option3": "Outer core",
+    "option4": "Inner core",
+    "correctAnswer" : "4",
+    "hint": "It’s at the very center of the Earth.",
+    "learnMore": "Scientists believe that the inner core is the hottest layer of the Earth, that it is composed mostly of iron and nickel, and that although it is hot enough to be a liquid, it acts as a solid because of the immense amount of pressure on it."
+  },
+  "54": {
+    "quiz": "What is ‘Macro Photography’?",
+    "option1": "Photography that involves small subjects",
+    "option2": "Photography that involves large subjects",
+    "option3": "Photography that involves medium-sized subjects",
+    "option4": "None of the above",
+    "correctAnswer" : "1",
+    "hint": "It's like shooting another world!",
+    "learnMore": "Macro photography is extreme close-up photography, usually of very small subjects and living organisms like insects, in which the size of the subject in the photograph is greater than life size."
+  },
+  "55": {
+    "quiz": "In which game would you find the character “Master Chief”?",
+    "option1": "Doom",
+    "option2": "Marathon",
+    "option3": "Destiny",
+    "option4": "Halo",
+    "correctAnswer" : "4",
+    "hint": "The game is a popular Xbox exclusive.",
+    "learnMore": "Master Chief is the protagonist in the Halo series of video games and related media. Also known as Master Chief Petty Officer John-117, the character first appeared in the 2001 video game Halo: Combat Evolved, a military science fiction first-person shooter that became a long-running game series."
+  },
+  "56": {
+    "quiz": "What is the highest-selling video game of all time?",
+    "option1": "Tetris",
+    "option2": "Super Mario Bros",
+    "option3": "Minecraft",
+    "option4": "Grand Theft Auto V",
+    "correctAnswer" : "3",
+    "hint": "The game allows players to build and explore their own virtual worlds.",
+    "learnMore": "Minecraft has sold more than 238 million copies, making it the most-sold video game of all time. Minecraft is a sandbox-style game that had a private release on PC in 2009 and was fully released to the public in 2011."
+  },
+  "57": {
+    "quiz": "What does ‘ISO’ stand for in photography?",
+    "option1": "International Standards Organization",
+    "option2": "Internal Sensitivity Option",
+    "option3": "Image Stabilization Option",
+    "option4": "International Sensitivity Option",
+    "correctAnswer" : "1",
+    "hint": "It’s a standard for measuring sensitivity to light.",
+    "learnMore": "ISO, which stands for International Standards Organization, is the sensitivity to light as pertains to either film or a digital sensor. ISO is one of the three legs of the exposure triangle used to make sense of what goes into determining an exposure. The other two legs are aperture and shutter speed."
+  },
+  "58": {
+    "quiz": "What was the first console video game that allowed the game to be saved?",
+    "option1": "Super Mario Bros.",
+    "option2": "The Legend of Zelda",
+    "option3": "the Super Cassette Vision",
+    "option4": "Final Fantasy",
+    "correctAnswer" : "3",
+    "hint": "The game features a golden cartridge.",
+    "learnMore": "Pop and Chips (1985) for the Super Cassette Vision was the first-ever game to allow saving game progress on a video game console, using an AA battery on the game cassette."
+  },
+  "59": {
+    "quiz": "What does the term ‘Aperture’ refer to in photography?",
+    "option1": "The size of the camera lens",
+    "option2": "The size of the camera’s opening that allows light in",
+    "option3": "The length of the camera’s shutter speed",
+    "option4": "The distance between the camera and the subject",
+    "correctAnswer" : "2",
+    "hint": "It’s related to how much light enters the camera.",
+    "learnMore": "In photography, aperture refers to the opening in a camera lens that controls the amount of light that enters the camera and reaches the image sensor."
+  },
+  "60": {
+    "quiz": "Which social media platform popularized the use of hashtags (#)?",
+    "option1": "Facebook",
+    "option2": "Instagram",
+    "option3": "Twitter",
+    "option4": "Reddit",
+    "correctAnswer" : "3",
+    "hint": "This platform is known for its short, concise posts.",
+    "learnMore": "While hashtags were initially popularized on Twitter, their adoption quickly spread to other social media platforms as users recognized their effectiveness in categorizing and discovering content. Today, hashtags are an integral part of platforms such as Instagram, Facebook, and LinkedIn."
+  },
+  "61": {
+    "quiz": "Which social media platform was originally known as 'Picaboo'?",
+    "option1": "Snapchat",
+    "option2": "Flickr",
+    "option3": "Pinterest",
+    "option4": "Reddit",
+    "correctAnswer" : "3",
+    "hint": "This platform is known for its disappearing messages.",
+    "learnMore": "The three of them launched Snapchat as “Picaboo” on the iOS operating system in July 2011. Reggie Brown was driven out of the company months after it was launched. In September 2011, Spiegel and Murphy rebranded the app as Snapchat and relaunched in the iOS App Store."
+  },
+  "62": {
+    "quiz": "Who was the first president of the United States?",
+    "option1": "Thomas Jefferson",
+    "option2": "George Washington",
+    "option3": "Abraham Lincoln",
+    "option4": "John Adams",
+    "correctAnswer" : "2",
+    "hint": "He is known as the 'Father of His Country'.",
+    "learnMore": "On April 30, 1789, George Washington, standing on the balcony of Federal Hall on Wall Street in New York, took his oath of office as the first President of the United States."
+  },
+  "63": {
+    "quiz": "Who was the longest-serving British Prime Minister of the 20th century?",
+    "option1": "Winston Churchill",
+    "option2": "Margaret Thatcher",
+    "option3": "Tony Blair",
+    "option4": "Harold Wilson",
+    "correctAnswer" : "2",
+    "hint": "She was also the first woman to hold that office.",
+    "learnMore": "Margaret Thatcher, in office for 11 years and 288 days between 1979 and 1990, is the longest serving prime minister in modern history, and the longest-serving prime minister officially referred to as such. William Gladstone is the only person to have served four separate terms."
+  },
+  "64": {
+    "quiz": "Who is the founder of Alibaba Group?",
+    "option1": "Ma Huateng",
+    "option2": "Jack Ma",
+    "option3": "Robin Li",
+    "option4": "Wang Jianlin",
+    "correctAnswer" : "2",
+    "hint": "He is a prominent billionaire from China.",
+    "learnMore": "Jack Ma Yun is a Chinese business magnate, investor and philanthropist. He is the co-founder of Alibaba Group, a multinational technology conglomerate."
+  },
+  "65": {
+    "quiz": "Who is the co-founder and CEO of Oracle Corporation?",
+    "option1": "Lawrence Joseph Ellison",
+    "option2": "Jack Ma",
+    "option3": "Bill Gates",
+    "option4": "Sundar Pichai",
+    "correctAnswer" : "1",
+    "hint": "He is known for his extravagant lifestyle.",
+    "learnMore": "Lawrence Joseph Ellison (born August 17, 1944) is an American businessman and entrepreneur who co-founded software company Oracle Corporation. He was Oracle's chief executive officer from 1977 to 2014, and is now its chief technology officer and executive chairman."
+  },
+  "66": {
+    "quiz": "What is the tallest bird in the world?",
+    "option1": "Ostrich",
+    "option2": "Kiwi",
+    "option3": "Rheas",
+    "option4": "Flamingo",
+    "correctAnswer" : "1",
+    "hint": "It's a flightless bird.",
+    "learnMore": "The tallest and heaviest living bird is the ostrich, which can grow to an impressive nine feet but, even at that size, weighs less than 300 pounds. You would need more than five ostriches to equal one V."
+  },
+  "67": {
+    "quiz": "What is the pH of pure water at 25°C?",
+    "option1": "7",
+    "option2": "0",
+    "option3": "14",
+    "option4": "1",
+    "correctAnswer" : "1",
+    "hint": "It’s neutral on the pH scale.",
+    "learnMore": "Pure water has pH = 7 (neutral) at 25∘C."
+  },
+  "68": {
+    "quiz": "What is the smallest unit of life?",
+    "option1": "Molecule",
+    "option2": "Organism",
+    "option3": "Atom",
+    "option4": "Cell",
+    "correctAnswer" : "4",
+    "hint": "All living things are composed of this.",
+    "learnMore": "The smallest unit of life is a cell. All living things are made up of cells, which are the basic building blocks of all organisms. Cells are the smallest unit that can carry out all of the functions of life, including taking up nutrients and water, getting rid of waste, getting and using energy, and interacting with the environment. They provide structure and make up bodies, organs, and tissues, convert nutrients into energy, and perform specific actions, among other functions. Cells also contain DNA, which provides all the important information in order for an organism to develop, reproduce and survive."
+  },
+  "69": {
+    "quiz": "What is the chemical formula for water?",
+    "option1": "O2",
+    "option2": "CO2",
+    "option3": "H2O",
+    "option4": "H2O2",
+    "correctAnswer" : "3",
+    "hint": "water has Hydrogen!",
+    "learnMore": "The chemical formula for water is H2O.  It is an inorganic compound that consists of two hydrogen atoms and one oxygen atom, which are held together by covalent bonds."
+  },
+  "70": {
+    "quiz": "What is the speed of sound in air at sea level?",
+    "option1": "343 m/s",
+    "option2": "299,792 km/s",
+    "option3": "1,100 ft/s",
+    "option4": "567 km/s",
+    "correctAnswer" : "1",
+    "hint": "It’s much slower than the speed of light.",
+    "learnMore": "If we consider the atmosphere on a standard day at sea level static conditions, the speed of sound is about 761 mph, or 1100 feet/second."
+  },
+  "71": {
+    "quiz": "What is the largest species of tree in the world?",
+    "option1": "Oak",
+    "option2": "Sequoia",
+    "option3": "Pine",
+    "option4": "Maple",
+    "correctAnswer" : "2",
+    "hint": "It’s named after a Native American tribe.",
+    "learnMore": "The biggest tree in the world is a giant sequoia (Sequoiadendron giganteum) tree that is located in Sequoia National Park. At an incredible 52,500 cubic feet, it is, by volume, the largest single tree in the world."
+  },
+  "72": {
+    "quiz": "What is the name of the pigment that makes leaves green?",
+    "option1": "Lycopene",
+    "option2": "Carotene",
+    "option3": "Anthocyanin",
+    "option4": "Chlorophyll",
+    "correctAnswer" : "4",
+    "hint": "It’s involved in photosynthesis.",
+    "learnMore": "Chlorophyll is a pigment that gives plants their green color, and it helps plants create their own food through photosynthesis."
+  },
+  "73": {
+    "quiz": "Who directed the movie 'Inception'?",
+    "option1": "Steven Spielberg",
+    "option2": "James Cameron",
+    "option3": "Christopher Nolan",
+    "option4": "Quentin Tarantino",
+    "correctAnswer" : "3",
+    "hint": "The director is also known for the “Dark Knight” trilogy.",
+    "learnMore": "Inception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced the film with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets."
+  },
+  "74": {
+    "quiz": "What is the main function of a flower in a plant?",
+    "option1": "Photosynthesis",
+    "option2": "Respiration",
+    "option3": "Reproduction",
+    "option4": "Absorption of water",
+    "correctAnswer" : "3",
+    "hint": "It involves pollination.",
+    "learnMore": "The primary and main purpose of a flower is reproduction. The function of a flower is to carry out sexual reproduction in plants through the formation of male and female gametes. Flowers ensure that the gametes fertilise to form seeds that further help in reproducing plants."
+  },
+  "75": {
+    "quiz": "What is the hardest substance in the human body?",
+    "option1": "Bone",
+    "option2": "Nail",
+    "option3": "Tooth enamel",
+    "option4": "Cartilage",
+    "correctAnswer" : "3",
+    "hint": "It's in a specific part of your body.",
+    "learnMore": "Not only is tooth enamel tough, but it is the hardest substance in the human body. That's right, harder than your bones or any other bodily tissue. Understanding what tooth enamel is and its capabilities, and how to maintain it and keep it functioning at its best can take your smile and dental health a long way."
+  },
+  "76": {
+    "quiz": "Who directed the 'Lord of the Rings' trilogy?",
+    "option1": "Peter Jackson",
+    "option2": "George Lucas",
+    "option3": "Ridley Scott",
+    "option4": "J.J Abrams",
+    "correctAnswer" : "1",
+    "hint": "This director is from New Zealand.",
+    "learnMore": "Sir Peter Robert Jackson ONZ KNZM is a New Zealand film director, screenwriter and producer. He is best known as the director, writer and producer of the Lord of the Rings trilogy and the Hobbit trilogy, both of which are adapted from the novels of the same name by J. R. R. Tolkien."
+  },
+  "77": {
+    "quiz": "Which country did Germany invade to start World War II?",
+    "option1": "Poland",
+    "option2": "Turkey",
+    "option3": "France",
+    "option4": "Belgium",
+    "correctAnswer" : "1",
+    "hint": "This country is located to the east of Germany.",
+    "learnMore": "World War Two began on 3 September 1939, when Britain and France reacted to the German invasion of Poland two days earlier by declaring war on the Nazi state."
+  },
+  "78": {
+    "quiz": "What was the longest war in American history?",
+    "option1": "The Revolutionary War",
+    "option2": "The Civil War",
+    "option3": "The Vietnam War",
+    "option4": "The Afghanistan War",
+    "correctAnswer" : "4",
+    "hint": "This war began in 2001 and ended in 2021.",
+    "learnMore": "The longest war in American history is the War in Afghanistan. It lasted for 19.9 years (19 years, 10 months), from 2001 to 2021. This war has outlasted the Spanish-American War, World War I, World War II, and the Korean War combined. The previous longest conflict was the Vietnam War, which lasted for 19.4 years (19 years, 5 months). According to a recent study by Brown University, which includes interest on debt used to finance the war and expenses such as veterans’ care, the cost of the war (and future commitments) in Afghanistan from 2001 to 2022 amounts to $2.3 trillion"
+  },
+  "79": {
+    "quiz": "What is the normal body temperature for a human (in Celsius)?",
+    "option1": "About 35°C",
+    "option2": "About 37°C",
+    "option3": "About 45°C",
+    "option4": "About 39°C",
+    "correctAnswer" : "2",
+    "hint": "Surviving a body temperature of 45C (113F) would be rare and challenging. If the brain got that hot, it would probably be fatal in a very short time.",
+    "learnMore": "The average normal body temperature is generally accepted as 98.6°F (37°C). Some studies have shown that the 'normal' body temperature can have a wide range, from 97°F (36.1°C) to 99°F (37.2°C). A temperature over 100.4°F (38°C) most often means you have a fever caused by an infection or illness. and more than (43°C) can cause brain damage!"
+  },
+  "80": {
+    "quiz": "Who was the President of the United States at the end of the Vietnam War?",
+    "option1": "Richard Nixon",
+    "option2": "John F Kennedy",
+    "option3": "Lyndon B Johnson",
+    "option4": "Dwight Eisenhower",
+    "correctAnswer" : "2",
+    "hint": "This President resigned from office due to a scandal.",
+    "learnMore": "Gerald Rudolph Ford Jr. was an American politician who served as the 38th president of the United States from 1974 to 1977. He previously served as the leader of the Republican Party in the U.S. House of Representatives from 1965 to 1973, and as the 40th vice president under President Richard Nixon from 1973 to 1974."
+  },
+  "81": {
+    "quiz": "Who is known as the father of quantum physics?",
+    "option1": "Isaac Newton",
+    "option2": "Nikola Tesla",
+    "option3": "Max Planck",
+    "option4": "Albert Einstein",
+    "correctAnswer" : "3",
+    "hint": "He introduced the concept of energy quanta.",
+    "learnMore": "The father of quantum physics is widely considered to be Max Planck. He introduced the concept of quantization of energy."
+  },
+  "82": {
+    "quiz": "What was the name of the project that developed the atomic bomb during World War II?",
+    "option1": "Project Manhattan",
+    "option2": "Project Trinity",
+    "option3": "Project Einstein",
+    "option4": "Project Enigma",
+    "correctAnswer" : "1",
+    "hint": "This project shares its name with a borough in New York City",
+    "learnMore": "The Manhattan Project was a top-secret program to make the first atomic bombs during World War II. Its results had profound impacts on history: the subsequent nuclear arms race has radically changed the political world order in ways that are still evident today."
+  },
+  "83": {
+    "quiz": "Who is known as the father of civil engineering?",
+    "option1": "Archimedes",
+    "option2": "John Smeaton",
+    "option3": "Isaac Newton",
+    "option4": "Mason Nixon",
+    "correctAnswer" : "2",
+    "hint": "He was a British engineer.",
+    "learnMore": "John Smeaton, the “father of civil engineering”, designed the new Eddystone Lighthouse, also known as Smeaton's Tower, off the coast of Plymouth, after it was destroyed by a fire in December 1755."
+  },
+  "84": {
+    "quiz": "Who was the dictator of Iraq during the Gulf War?",
+    "option1": "Muammar Gaddafi",
+    "option2": "Saddam Hussein",
+    "option3": "Kim Jong-il",
+    "option4": "Fidel Castro",
+    "correctAnswer" : "2",
+    "hint": "This dictator was captured during Operation Red Dawn.",
+    "learnMore": "Saddam Hussein Abd al-Majid al-Tikriti (28 April 1937 – 30 December 2006) was an Iraqi politician and revolutionary who was the fifth president of Iraq from 1979 to 2003. He also served as prime minister of Iraq, first from 1979 to 1991 and later from 1994 to 2003."
+  },
+  "85": {
+    "quiz": "What is absolute zero?",
+    "option1": "The boiling point of water in Mars",
+    "option2": "The freezing point of water",
+    "option3": "The lowest possible temperature",
+    "option4": "highest possible temperature",
+    "correctAnswer" : "3",
+    "hint": "At this temperature, particles stop moving.",
+    "learnMore": "Absolute zero is the lowest temperature possible. At a temperature of absolute zero there is no motion and no heat. Absolute zero occurs at a temperature of 0 degrees Kelvin, or -273.15 degrees Celsius, or at -460 degrees Fahrenheit."
+  },
+  "86": {
+    "quiz": "What is the study of fluids in motion called?",
+    "option1": "Thermodynamics",
+    "option2": "Quantum Mechanics",
+    "option3": "Fluid Dynamics",
+    "option4": "Electrodynamics",
+    "correctAnswer" : "3",
+    "hint": "This field is used in various areas of engineering including mechanical and aerospace.",
+    "learnMore": "In physics, physical chemistry and engineering, fluid dynamics is a subdiscipline of fluid mechanics that describes the flow of fluids—liquids and gases. It has several subdisciplines, including aerodynamics (the study of air and other gases in motion) and hydrodynamics (the study of liquids in motion)."
+  },
+  "87": {
+    "quiz": "What does HVAC stand for in the context of building design?",
+    "option1": "High Voltage AC",
+    "option2": "Heating, Ventilation, and Air Conditioning",
+    "option3": "High Velocity Air Circulation",
+    "option4": "Heat Ventilation and Cooling",
+    "correctAnswer" : "3",
+    "hint": "This system is responsible for maintaining indoor environmental comfort.",
+    "learnMore": "In the context of building design, HVAC stands for Heating, Ventilation, and Air Conditioning.  It is a system that provides thermal comfort and acceptable indoor air quality in a building. The system is designed to regulate the temperature, humidity, and air quality of a building to ensure that the occupants are comfortable and healthy."
+  },
+  "88": {
+    "quiz": "Which of the following is the oldest programming language among others?",
+    "option1": "Rust",
+    "option2": "Bash",
+    "option3": "Ruby",
+    "option4": "Java",
+    "correctAnswer" : "2",
+    "hint": "It's a command-line interpreter",
+    "learnMore": "Rust First appeared on May 15, 2015 _ Bash's Initial release was on June 8, 1989 _ Ruby's first public release was on December 21, 1995 and Java First appeared on May 23, 1995! So, among these, BASH is the oldest programming language. Bash is a command-line interpreter or Unix Shell and it is widely used in GNU/Linux Operating System. It is written by Brian Jhan Fox. It is used as a default login shell for most Linux distributions. Scripting is used to automate the execution of the tasks so that humans do not need to perform them individually."
+  },
+  "89": {
+    "quiz": "What is the largest desert in the world?",
+    "option1": "Sahara Desert",
+    "option2": "Arabian Desert",
+    "option3": "Gobi Desert",
+    "option4": "Antarctic Desert",
+    "correctAnswer" : "3",
+    "hint": "It’s not located in a hot region.",
+    "learnMore": "Antarctic Polar Desert. Antarctica is the largest continent, as well as the largest desert in the world. This frigid wasteland dominates the South Pole with a massive surface area of 5.5 million square miles ( 14.2 million square kilometers)."
+  },
+  "90": {
+    "quiz": "What is the Cyrus Cylinder historically recognized as?",
+    "option1": "The world’s first universal charter of human rights",
+    "option2": "The world’s first constitution",
+    "option3": "The world’s first declaration of independence",
+    "option4": "The world’s first bill of rights",
+    "correctAnswer" : "1",
+    "hint": "It predates the Magna Carta by one millennium.",
+    "learnMore": "Known today as the Cyrus Cylinder, this ancient record has now been recognized as the world's first charter of human rights. It is translated into all six official languages of the United Nations and its provisions parallel the first four Articles of the Universal Declaration of Human Rights."
+  },
+  "91": {
+    "quiz": "What is the smallest particle in an atom?",
+    "option1": "Proton",
+    "option2": "Neutron",
+    "option3": "Electron",
+    "option4": "Quark",
+    "correctAnswer" : "4",
+    "hint": "These particles come in flavors like up, down, charm, and strange.",
+    "learnMore": "Persepolis was the ceremonial capital of the Achaemenid Empire. It is situated in the plains of Marvdasht, encircled by southern Zagros mountains of the Iranian plateau. Modern day Shiraz is situated 60 km southwest of the ruins of Persepolis. The earliest remains of Persepolis date back to 515 BC."
+  }
+}
