@@ -1,7 +1,10 @@
 # 90Quiz Challenge
 
 90Quiz is a 90 days quiz challenge app developed using the Flutter framework that provides you a single quiz everyday for 90 days.
-g![90Quiz banner](https://github.com/HoveredCube/flutter-quiz-app/assets/68770458/95d85af7-6b98-48e8-85c5-aefbacb479a2)
+
+
+![90Quiz banner](https://github.com/HoveredCube/flutter-quiz-app/assets/68770458/95d85af7-6b98-48e8-85c5-aefbacb479a2)
+
 
 ## Why did I made this App?
 As I'm currently learning Flutter I developed this Training Project to practice my flutter skills and learn something new! so yeah, expect to see some problems and mistakes in the source code!
