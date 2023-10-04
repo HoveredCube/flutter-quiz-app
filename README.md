@@ -34,5 +34,6 @@ here is a list of what I achieved and learned and things I couldn't solve by doi
 The Code is public and under the Apache License, so You can review, modify and contribute into the project.
 as I've mentioned earlier, this is a learning Project and I can tell that it's full of mistakes! so you can help me make it better and learn something new!
 
-## Download The Released APK
+## Download The Released App
+Android version:
 [download apk](https://github.com/HoveredCube/flutter-quiz-app/releases/download/1.0.0/90Quiz.Challenge.apk)
